@@ -1,0 +1,110 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+html{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-image: url('bk_1.jpg');
+    background-size: cover;
+    background-position: inherit;
+    font-family: Times New Roman;
+    box-sizing:border-box;
+    
+}
+
+p {
+    background-color:none;
+    font-family: Times New Roman;
+    text-align:left;
+    font-size:50px;
+}
+
+.menu-bar {
+    background: rgb(178, 0, 255);
+    text-align: center;
+}  /* design the menu bar*/ 
+
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style:none;
+    color:white;
+}
+
+.menu-bar ul li{
+    width: 140px;
+    margin: 20px;
+    padding: 15px;
+} /* used for adjust the width and legth of the menu bar*/
+
+.menu-bar ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+.active, .menu-bar ul li:hover{
+    background:#808080;
+    border-radius:3px;
+} /* creates a hover effect on the content in the menu bar*/
+
+.menu-bar .fa {
+        margin-right: 8px;
+} /* spaces the icons from the words*/
+
+          
+          /* SECTION FOR SUB-MENU-1*/
+.sub-menu-1 {
+    display: none;
+}  /*this helps not to display the content of home on the menu bar*/
+
+.menu-bar ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background: rgb(178, 0, 255);
+    margin-top: 15px;
+    margin-right: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 20px;
+}  /* This sets the menu drop down vertically*/
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom:1px dotted #ffffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+} /* This is to edit the content in the li tag, set dotted lines for separation */
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom:none;
+} /* this removes the dotted lines under the item(Team)*/
+
+    .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+        color: brown;
+    } /* hover the items under About Us*/
+
+.fa-angle-right{
+    float: right;
+}
+
+                      /* SECTION FOR SUB-MENU-2*/
+.sub-menu-2{
+    display:none;
+}
+
+.hover-me:hover .sub-menu-2{
+    position:absolute;
+    display:block;
+    margin-top:40px;
+    margin-left:140px;
+    background:rgb(178, 0, 255);
+}

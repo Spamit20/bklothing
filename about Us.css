@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #00ffff;
+    background-image: url('bk_1.jpg');
+    background-size: cover;
+    background-position: inherit;
+}
+
+.about{
+    background-image: url('bk_1.jpg');
+}
