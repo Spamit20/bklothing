@@ -17,5 +17,16 @@ body {
 .about{
     background-image: url('bk_1.jpg');
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-position: ;
+    background-position:inherit;
+}
+
+/* Media query: Tablet or smaller*/ 
+@media (max-width: 1000px) {          /* set the screen so devices with less than 1000px can use is effectively*/
+    .about{
+        margin: auto 10px;
+    }
+
+    .about{
+        font-size: 2.5rem;
+    }
 }

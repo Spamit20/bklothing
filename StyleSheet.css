@@ -108,3 +108,14 @@ p {
     margin-left:140px;
     background:rgb(178, 0, 255);
 }
+
+/* Media query: Tablet or smaller*/ 
+@media (max-width: 1000px) {          /* set the screen so devices with less than 1000px can use is effectively*/
+    .menu-bar{
+        margin: auto 10px;
+    }
+
+    .menu-bar{
+        font-size: 2.5rem;
+    }
+}
