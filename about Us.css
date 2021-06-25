@@ -18,15 +18,10 @@ body {
     background-image: url('bk_1.jpg');
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-position:inherit;
-}
-
-/* Media query: Tablet or smaller*/ 
-@media (max-width: 1000px) {          /* set the screen so devices with less than 1000px can use is effectively*/
-    .about{
-        margin: auto 10px;
-    }
-
-    .about{
-        font-size: 2.5rem;
-    }
+    background: rgb(243, 240, 245);
+    text-align: center;
+    display: inline-flex;
+    width:auto;
+    margin: 100px;
+    padding: 15px;
 }
