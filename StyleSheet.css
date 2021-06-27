@@ -1,16 +1,16 @@
 ﻿*{
     margin:0;
     padding:0;
-}
-html{
     box-sizing: border-box;
 }
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     background-image: url('bk_1.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: inherit;
     font-family: Times New Roman;
     display: flex;
@@ -19,16 +19,42 @@ body {
     
 }
 
-p {
+.bk{
+    background: #798a6f;
+    text-align: right;
+}
+
+.bk ul{
+    display:inline-flex;
+    list-style:none;
+    color:white;
+    
+}
+
+.bk ul li{
+    width: 100px;
+    margin: px;
+    padding-bottom: 20px;
+    padding-right: 20px; 
+    text-decoration:none;
+}
+.bk ul li a{
+    text-decoration:none;
+    color:rgb(10, 10, 10);
+}
+
+.bk p {
     background-color:none;
     font-family: Times New Roman;
     text-align:left;
-    font-size:50px;
+    width: 100%;
+    font-size:30px;
 }
 
 .menu-bar {
     background: rgba(179, 0, 255, 0.658);
     text-align: center;
+
 }  /* design the menu bar*/ 
 
 
@@ -37,12 +63,14 @@ p {
     list-style:none;
     color:white;
     width: 100%;
+    
 }
 
 .menu-bar ul li{
-    width: 100px;
-    margin: 20px ;
+    width: 120px;
+    margin: 15px ;
     padding: 15px;
+    
 } /* used for adjust the width and legth of the menu bar*/
 
 .menu-bar ul li a{
@@ -53,6 +81,7 @@ p {
 .active, .menu-bar ul li:hover{
     background:#808080;
     border-radius:3px;
+    padding: auto;
 } /* creates a hover effect on the content in the menu bar*/
 
 .menu-bar .fa {
