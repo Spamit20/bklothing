@@ -24,6 +24,7 @@ body {
     display: inline-flex;
     width:auto;
     margin: 100px;
-    padding: 50px;
+    padding: 100px;
+    padding-left: 50px;
     border-radius: 10px;
 }
