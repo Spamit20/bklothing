@@ -25,6 +25,7 @@ body{
     text-align: center;
     margin: 5px 50px;
     padding: 50px;
+    border-radius: 10px;
 }
 
 .garment{
@@ -33,6 +34,7 @@ body{
     text-align: center;
     margin: 5px 50px;
     padding: 50px;
+    border-radius: 10px;
 }
 
 .fab{
@@ -41,6 +43,7 @@ body{
     text-align: center;
     margin: 5px 50px;
     padding: 50px;
+    border-radius: 10px;
 }
 
 .enq{
@@ -49,3 +52,5 @@ body{
     text-align: center;
     margin: 5px 50px;
     padding: 50px;
+    border-radius: 10px;
+}
